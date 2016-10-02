@@ -1,7 +1,7 @@
 # meter  
 
 A basic app to show simple metrics about a nginx server:  
-- last 24 requests
+- requests in the last 24 hours
 - total requests
 
 ### Install
