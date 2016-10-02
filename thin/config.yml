@@ -1,0 +1,14 @@
+---
+ environment: production
+ chdir: /var/www/meter
+ address: 127.0.0.1
+ user: root
+ group: root
+ port: 3000
+ pid: /var/www/meter/thin.pid
+ rackup: /var/www/meter/config.ru
+ log: /var/www/meter/thin.log
+ max_conns: 1024
+ timeout: 30
+ max_persistent_conns: 512
+ daemonize: true
