@@ -1,6 +1,6 @@
 # meter  
 
-A basic app to show simple metrics about an nginx server:  
+A basic app to show simple metrics about a nginx server:  
 - last 24 requests
 - total requests
 
