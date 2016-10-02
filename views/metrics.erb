@@ -1,0 +1,18 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/css/metrics.css"/>
+</head>
+<body>
+  <h1>nginx metrics</h1>
+  <table id="metrics">
+   <tr>
+    <td>requests in the last 24 hours</td>
+    <td class="metric-value"> <%= @lastProxyRequests %> </td> 
+  </tr>
+  <tr>
+    <td>total requests</td>
+    <td class="metric-value"> <%= @totalProxyRequests %> </td> 
+  </tr>
+  </table>
+</body>
+</html>

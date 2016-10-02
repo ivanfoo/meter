@@ -1,0 +1,34 @@
+h1 {
+  color: black;
+  font-size: 25px;
+  background-color: #7FDBFF;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  font-family: Impact, sans serif;
+}
+
+table {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+}
+
+td {
+  height: 40px;
+  background-color: #DDDDDD;
+}
+
+table, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+.metric-value {
+  font-weight: bold;
+  background-color: #2ECC40;
+
+}
+
