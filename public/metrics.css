@@ -1,10 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
-  color: black;
-  font-size: 25px;
-  background-color: #7FDBFF;
-  height: 50px;
-  line-height: 50px;
-  padding-left: 10px;
+  color: #2ECC40;
+  font-size: 35px;
+  background-color: black;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  font-family: Impact, sans serif;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
   font-family: Impact, sans serif;
 }
 
@@ -12,13 +27,15 @@ table {
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
-  text-align: center;
+  width: 100%;
+  text-align: left;
 }
 
 td {
-  height: 40px;
+  height: 25px;
+  line-height: 25px;
   background-color: #DDDDDD;
+  padding-left: 20px;
 }
 
 table, td {
@@ -28,7 +45,9 @@ table, td {
 
 .metric-value {
   font-weight: bold;
+  width: 100px;
   background-color: #2ECC40;
-
+  text-align: center;
+  padding: 0;
 }
 

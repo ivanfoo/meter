@@ -3,16 +3,38 @@
   <link rel="stylesheet" href="metrics.css"/>
 </head>
 <body>
-  <h1>nginx metrics</h1>
+  <h1>[METER]</h1>
+  <h2>nginx metrics</h2>
   <table id="metrics">
    <tr>
     <td>requests in the last 24 hours</td>
-    <td class="metric-value"> <%= @lastProxyRequests %> </td> 
+    <td class="metric-value"> <%= @last_nginx_requests %> </td> 
+  </tr>
+   <tr>
+    <td>total GET requests</td>
+    <td class="metric-value"> <%= @nginx_get_requests %> </td> 
+  </tr>
+   <tr>
+    <td>total POST requests</td>
+    <td class="metric-value"> <%= @nginx_post_requests %> </td> 
   </tr>
   <tr>
     <td>total requests</td>
-    <td class="metric-value"> <%= @totalProxyRequests %> </td> 
+    <td class="metric-value"> <%= @total_nginx_requests %> </td> 
   </tr>
   </table>
+
+  <h2>system metrics</h2>
+  <table>
+   <tr>
+    <td>available memory</td>
+    <td class="metric-value"> <%= @system_available_memory %> MB</td> 
+  </tr>
+   <tr>
+    <td>total memory</td>
+    <td class="metric-value"> <%= @system_total_memory %> MB</td> 
+  </tr>
+  </table>
+  
 </body>
 </html>
