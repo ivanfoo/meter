@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/' do
+get '/metrics' do
   last_nginx_requests = 0
   nginx_get_requests = 0
   nginx_post_requests = 0
