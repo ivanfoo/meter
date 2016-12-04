@@ -5,9 +5,9 @@
  user: root
  group: root
  port: 3000
- pid: /var/www/meter/thin.pid
+ pid: /tmp/meter.pid
  rackup: /var/www/meter/config.ru
- log: /var/www/meter/thin.log
+ log: /var/www/meter/meter.log
  max_conns: 1024
  timeout: 30
  max_persistent_conns: 512
